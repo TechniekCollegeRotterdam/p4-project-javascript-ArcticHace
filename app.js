@@ -31,6 +31,7 @@ const generateComputerChoice = () =>{
     }
     computerChoice.innerHTML = computer;
 }
+
 const getResult = () => {
     if (computer == player){
         result = "Gelijkspel"
