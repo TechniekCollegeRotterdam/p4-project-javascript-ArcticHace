@@ -3,7 +3,7 @@ const playerChoice = document.getElementById("player-choice");
 const resultOutput = document.getElementById("result");
 
 const possibleChoices = document.querySelectorAll('button');
-
+// je kan comments zetten zodat het duidelijk is wat de code doet
 let computer;
 let player;
 let result;
@@ -31,7 +31,7 @@ const generateComputerChoice = () =>{
     }
     computerChoice.innerHTML = computer;
 }
-
+//verder geen fouten, prima
 const getResult = () => {
     if (computer == player){
         result = "Gelijkspel"
