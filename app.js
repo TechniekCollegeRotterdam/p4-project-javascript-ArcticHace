@@ -62,5 +62,3 @@ const getResult = () => {
     };
     resultOutput.innerHTML = result;
 }
-
-
