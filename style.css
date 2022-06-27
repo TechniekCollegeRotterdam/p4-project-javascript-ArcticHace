@@ -3,6 +3,7 @@
     width: 150px;
 }
 
+/* Het grijze vlak en font */
 #gameDiv{
     font-family: 'Roboto', cursive;
     border: 3px solid;
@@ -11,6 +12,8 @@
     background-color: lightgray;
     text-align: center;
 }
+
+/* De tekst kleur geven */
 #optC{
     color: red;
 
