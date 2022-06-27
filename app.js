@@ -1,3 +1,4 @@
+//de id uit de html file opnemen in dit document
 const computerChoice = document.getElementById("computer-choice");
 const playerChoice = document.getElementById("player-choice");
 const resultOutput = document.getElementById("result");
@@ -8,21 +9,16 @@ let computer;
 let player;
 let result;
 
+//de button een click event laten worden
 possibleChoices.forEach(button => button,addEventListener('click', (e) => {
     player = e.target.id;
     playerChoice.innerHTML = player;
     generateComputerChoice();
     getResult();
-
-    document.addEventListener('keydown', logKey);
-
-function logKey(e) {
-  log.textContent += ` ${e.code}`;
-}
 }));
 
 
-
+//De computer kiest hier één van de opties
 const generateComputerChoice = () =>{
     const randomNumber = Math.floor(Math.random() * 5) + 1;
 
@@ -48,6 +44,7 @@ const generateComputerChoice = () =>{
     computerChoice.innerHTML = computer;
 }
 
+//alle mogelijke opties van verliezen, winnen en gelijkspel
 const getResult = () => {
     if (computer == player){
         result = "Gelijkspel"
