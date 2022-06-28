@@ -39,7 +39,7 @@ const generateComputerChoice = () =>{
      }
 
      if (randomNumber == 5) {
-        computer= "Spock";
+        computer= "Hobbit";
      }
     computerChoice.innerHTML = computer;
 }
@@ -58,7 +58,7 @@ const getResult = () => {
         result = "Je hebt verloren"
     };
 
-    if (computer == "Rock" && player == "Spock"){
+    if (computer == "Rock" && player == "Hobbit"){
         result = "Je hebt gewonnen!"
     };
         
@@ -78,7 +78,7 @@ const getResult = () => {
         result = "Je hebt gewonnen!"
     };
         
-    if (computer == "Paper" && player == "Spock"){
+    if (computer == "Paper" && player == "Hobbit"){
         result = "Je hebt verloren"
     };
     
@@ -90,7 +90,7 @@ const getResult = () => {
         result = "Je hebt verloren"
     };
 
-    if (computer == "Scissors" && player == "Spock"){
+    if (computer == "Scissors" && player == "Hobbit"){
         result = "Je hebt gewonnen!"
     };
         
@@ -102,7 +102,7 @@ const getResult = () => {
         result = "Je hebt gewonnen!"
     };
         
-    if (computer == "Lizard" && player == "Spock"){
+    if (computer == "Lizard" && player == "Hobbit"){
         result = "Je hebt verloren"
     };
 
@@ -114,19 +114,19 @@ const getResult = () => {
         result = "Je hebt verloren"
     };
 
-    if (computer == "Spock" && player == "Lizard"){
+    if (computer == "Hobbit" && player == "Lizard"){
         result = "Je hebt gewonnen!"
     };
         
-    if (computer == "Spock" && player == "Rock"){
+    if (computer == "Hobbit" && player == "Rock"){
         result = "Je hebt verloren"
     };
 
-    if (computer == "Spock" && player == "Paper"){
+    if (computer == "Hobbit" && player == "Paper"){
         result = "Je hebt gewonnen!"
     };
         
-    if (computer == "Spock" && player == "Scissors"){
+    if (computer == "Hobbit" && player == "Scissors"){
         result = "Je hebt verloren"
     };
 

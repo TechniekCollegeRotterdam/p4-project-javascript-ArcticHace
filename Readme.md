@@ -1,15 +1,15 @@
 
 Je speelt door op een knop te drukken en de computer die genereert dan een ander antwoord
 
-Paper > Rock, Spock|
+Paper > Rock, Hobbit|
 
 Rock > Scissors, Lizard|
 
 Scissors > Paper, Lizard|
 
-Lizard > Paper, Spock|
+Lizard > Paper, Hobbit|
 
-Spock > Scissors, Rock|
+Hobbit > Scissors, Rock|
 
 
 Hetzelfde is een gelijkspel!
